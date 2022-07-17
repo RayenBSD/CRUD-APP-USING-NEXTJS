@@ -1,0 +1,75 @@
+.Home {
+  background-color: #111;
+  height: 100vh;
+  width: 100vw;
+}
+.Home h1 {
+  color: #de722e;
+  text-align: center;
+  margin: auto;
+}
+.Home form {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10px auto;
+}
+.Home form input {
+  width: 100%;
+  height: 30px;
+  outline: none;
+  margin: 5px 0;
+  font-size: large;
+  border: none;
+  padding: 5px;
+}
+.Home form input[type="submit"] {
+  border-radius: 10px;
+  padding: 5px;
+  background-color: #de722e;
+  color: #fff;
+  letter-spacing: 1px;
+  font-weight: 500;
+  font-size: larger;
+}
+.Home div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin: 10px auto;
+}
+.Home div button {
+  width: 100%;
+  margin: 5px auto;
+  height: 30px;
+  font-size: large;
+  border: none;
+  padding: 5px;
+  background-color: #de722e;
+  color: #fff;
+  border-radius: 10px;
+}
+.Home table {
+  margin: auto;
+  color: #fff;
+  width: 80%;
+}
+.Home table thead, .Home table tbody {
+  padding: 5px 10px;
+  letter-spacing: 1px;
+  text-align: center;
+}
+.Home table tbody tr td button {
+  margin: 5px auto;
+  height: 30px;
+  font-size: large;
+  border: none;
+  padding: 5px;
+  background-color: #de722e;
+  color: #fff;
+  border-radius: 10px;
+}
